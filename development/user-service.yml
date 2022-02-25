@@ -1,1 +1,5 @@
-msg: development-user
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/UserService?useSSL=false
+    username: root
+    password: Admin@123
